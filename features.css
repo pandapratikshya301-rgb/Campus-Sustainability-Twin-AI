@@ -1,0 +1,639 @@
+/* Campus Sustainability Twin AI - Advanced Features CSS */
+
+/* ============================================
+   1. SIDEBAR TOGGLE
+   ============================================ */
+.sidebar {
+    transition: all 0.3s ease;
+    width: 16.66667%;
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    overflow-y: auto;
+}
+
+.sidebar.collapsed {
+    width: 60px;
+    overflow: hidden;
+}
+
+.sidebar.collapsed .nav-link {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.sidebar.collapsed .nav-link i {
+    margin-right: 0;
+}
+
+.sidebar.collapsed .nav-link span {
+    display: none;
+}
+
+main {
+    transition: all 0.3s ease;
+    margin-left: 16.66667%;
+}
+
+main.sidebar-collapsed {
+    margin-left: 60px;
+}
+
+#sidebar-toggle {
+    border: none;
+    background: transparent;
+}
+
+#sidebar-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   2. DARK MODE
+   ============================================ */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode .navbar {
+    background-color: #2d2d2d !important;
+}
+
+body.dark-mode .sidebar {
+    background-color: #2d2d2d;
+    border-right: 1px solid #404040;
+}
+
+body.dark-mode .nav-link {
+    color: #b0b0b0;
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    background-color: #2d2d2d;
+    border-color: #404040;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card-header {
+    background-color: #363636;
+    border-bottom-color: #404040;
+}
+
+body.dark-mode .table {
+    color: #e0e0e0;
+}
+
+body.dark-mode .table-hover tbody tr:hover {
+    background-color: #363636;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #363636;
+    border-color: #404040;
+    color: #e0e0e0;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    background-color: #404040;
+    border-color: #0d6efd;
+    color: #e0e0e0;
+}
+
+body.dark-mode .modal-content {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-footer {
+    border-color: #404040;
+}
+
+body.dark-mode .offcanvas {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .alert {
+    background-color: #363636;
+    border-color: #404040;
+}
+
+body.dark-mode .sdg-card {
+    background-color: #363636;
+}
+
+body.dark-mode .stat-card {
+    background-color: #363636;
+}
+
+/* ============================================
+   3. NOTIFICATION BADGE
+   ============================================ */
+#notifications-btn {
+    position: relative;
+}
+
+#notification-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0 5px;
+}
+
+/* ============================================
+   4. SEARCH AND FILTER CONTROLS
+   ============================================ */
+.filter-controls {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+body.dark-mode .filter-controls {
+    background-color: #363636;
+}
+
+#search-complaints {
+    border-radius: 20px;
+}
+
+/* ============================================
+   5. BULK ACTIONS BAR
+   ============================================ */
+#bulk-actions-bar {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#bulk-actions-bar .alert {
+    margin-bottom: 0;
+}
+
+/* ============================================
+   6. EXPORT BUTTONS
+   ============================================ */
+.btn-group .btn {
+    transition: all 0.2s ease;
+}
+
+.btn-group .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* ============================================
+   7. TABLE ENHANCEMENTS
+   ============================================ */
+.table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
+body.dark-mode .table thead th {
+    background-color: #2d2d2d;
+}
+
+.complaint-checkbox {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+body.dark-mode .table tbody tr:hover {
+    background-color: #363636;
+}
+
+/* ============================================
+   8. ADVANCED ANALYTICS CARDS
+   ============================================ */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body.dark-mode .card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#avg-resolution-time {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+body.dark-mode #avg-resolution-time {
+    color: #6ea8fe;
+}
+
+.progress {
+    height: 10px;
+}
+
+/* ============================================
+   9. USER PROFILE MODAL
+   ============================================ */
+#profileModal .form-control[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+body.dark-mode #profileModal .form-control[readonly] {
+    background-color: #404040;
+}
+
+.user-profile-link {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.user-profile-link:hover {
+    opacity: 0.8;
+}
+
+/* ============================================
+   10. NOTIFICATIONS PANEL
+   ============================================ */
+#notificationsPanel .alert {
+    margin-bottom: 0.5rem;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ============================================
+   11. STATUS BADGES
+   ============================================ */
+.badge {
+    font-size: 0.75rem;
+    padding: 0.35em 0.65em;
+}
+
+/* ============================================
+   12. ACTION BUTTONS
+   ============================================ */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.btn-sm i {
+    font-size: 0.875rem;
+}
+
+/* ============================================
+   13. LOADING STATES
+   ============================================ */
+.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0d6efd;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ============================================
+   14. TOAST NOTIFICATIONS
+   ============================================ */
+.toast-container {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* ============================================
+   15. TIMELINE (for complaint history)
+   ============================================ */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #dee2e6;
+}
+
+body.dark-mode .timeline::before {
+    background-color: #404040;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    border: 2px solid #fff;
+}
+
+body.dark-mode .timeline-item::before {
+    border-color: #2d2d2d;
+}
+
+/* ============================================
+   16. RESPONSIVE DESIGN
+   ============================================ */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+    }
+    
+    .sidebar.collapsed {
+        height: 60px;
+    }
+    
+    main {
+        margin-left: 0;
+    }
+    
+    main.sidebar-collapsed {
+        margin-left: 0;
+    }
+    
+    .filter-controls .row > div {
+        margin-bottom: 0.5rem;
+    }
+    
+    #bulk-actions-bar .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #bulk-actions-bar .btn-group .btn {
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+}
+
+/* ============================================
+   17. SMOOTH TRANSITIONS
+   ============================================ */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+button, a, input, select, textarea {
+    transition: all 0.2s ease;
+}
+
+/* ============================================
+   18. SCROLLBAR STYLING
+   ============================================ */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* ============================================
+   19. PRINT STYLES
+   ============================================ */
+@media print {
+    .sidebar,
+    .navbar,
+    #sidebar-toggle,
+    #dark-mode-toggle,
+    #notifications-btn,
+    .btn,
+    #bulk-actions-bar {
+        display: none !important;
+    }
+    
+    main {
+        margin-left: 0 !important;
+    }
+    
+    .card {
+        break-inside: avoid;
+    }
+}
+
+/* ============================================
+   20. ACCESSIBILITY ENHANCEMENTS
+   ============================================ */
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+    outline: 2px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* ============================================
+   21. CUSTOM ANIMATIONS
+   ============================================ */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+/* ============================================
+   22. UTILITY CLASSES
+   ============================================ */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.border-hover:hover {
+    border-color: #0d6efd !important;
+}
+
+/* ============================================
+   23. ENHANCED STAT CARDS
+   ============================================ */
+.stat-card {
+    border-left: 4px solid #0d6efd;
+}
+
+.stat-card.water-card {
+    border-left-color: #0dcaf0;
+}
+
+.stat-card.electricity-card {
+    border-left-color: #ffc107;
+}
+
+.stat-card.transport-card {
+    border-left-color: #198754;
+}
+
+/* ============================================
+   24. ENHANCED SDG CARDS
+   ============================================ */
+.sdg-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sdg-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.sdg-card.sdg-6 {
+    border-top: 4px solid #26bde2;
+}
+
+.sdg-card.sdg-11 {
+    border-top: 4px solid #fd9d24;
+}
+
+.sdg-card.sdg-12 {
+    border-top: 4px solid #bf8b2e;
+}
+
+/* Made with Bob */

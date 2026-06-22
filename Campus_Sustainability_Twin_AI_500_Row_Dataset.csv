@@ -1,0 +1,509 @@
+Complaint_ID,Category,Location,Complaint,Priority,Status,Users_Affected,Date
+C0001,Water,Hostel B,No water supply since morning,High,Open,77,05-02-2026
+C0002,Electricity,Block B,Generator failure,Medium,Open,27,24-01-2026
+C0003,Transportation,Main Gate,Bus breakdown reported,Medium,Open,163,20-02-2026
+C0004,Water,Cafeteria,Broken water purifier,Medium,In Progress,227,02-01-2026
+C0005,Electricity,Admin Block,Electrical sparks observed,Medium,Open,75,28-03-2026
+C0006,Transportation,Route 2,Bus overcrowded,Medium,In Progress,236,30-03-2026
+C0007,Water,Mess Block,No water supply since morning,High,Resolved,51,07-04-2026
+C0008,Electricity,Block B,Emergency lights malfunctioning,High,Resolved,246,03-04-2026
+C0009,Transportation,Main Gate,Bus overcrowded,Low,Open,217,16-03-2026
+C0010,Water,Hostel B,Broken water purifier,High,In Progress,91,27-04-2026
+C0011,Electricity,Library,Power fluctuation affecting equipment,Medium,Open,191,10-03-2026
+C0012,Transportation,Route 2,Insufficient buses available,Medium,Open,61,29-04-2026
+C0013,Water,Cafeteria,Water contamination reported,High,Resolved,196,23-05-2026
+C0014,Electricity,Computer Lab,AC left running after hours,High,Open,78,09-01-2026
+C0015,Transportation,Main Entrance,Traffic congestion at entrance,Medium,Open,165,22-03-2026
+C0016,Water,Girls Hostel,Pipeline damage observed,Medium,Resolved,137,06-02-2026
+C0017,Electricity,Exam Hall,Power fluctuation affecting equipment,Medium,Resolved,157,09-03-2026
+C0018,Transportation,Transport Office,Traffic congestion at entrance,Medium,Open,150,07-05-2026
+C0019,Water,Hostel B,No water supply since morning,High,Open,180,10-02-2026
+C0020,Electricity,Control Room,Generator failure,Medium,Resolved,139,16-05-2026
+C0021,Transportation,Hostel Stop,Bus delayed,High,Open,194,18-05-2026
+C0022,Water,Mess Block,Tank overflow,Low,In Progress,60,27-04-2026
+C0023,Electricity,Block A,Emergency lights malfunctioning,High,Open,149,28-01-2026
+C0024,Transportation,Hostel Stop,Bus breakdown reported,Low,Open,158,16-05-2026
+C0025,Water,Hostel A,Tank overflow,Medium,Open,112,20-03-2026
+C0026,Electricity,Computer Lab,Frequent power cuts,Medium,Resolved,40,22-01-2026
+C0027,Transportation,Route 5,Bus overcrowded,High,Resolved,216,02-02-2026
+C0028,Water,Hostel C,Pipeline damage observed,High,Open,87,16-05-2026
+C0029,Electricity,Control Room,Street lights not working,High,Resolved,196,21-02-2026
+C0030,Transportation,Hostel Stop,Traffic congestion at entrance,High,Resolved,115,23-04-2026
+C0031,Water,Block D,Water leakage detected,Medium,Open,106,06-01-2026
+C0032,Electricity,Computer Lab,Street lights not working,Low,Resolved,181,16-01-2026
+C0033,Transportation,Main Gate,Bus overcrowded,High,In Progress,38,12-05-2026
+C0034,Water,Girls Hostel,Water contamination reported,High,Open,158,03-02-2026
+C0035,Electricity,Hostel Corridor,Street lights not working,High,In Progress,68,25-01-2026
+C0036,Transportation,Route 2,Traffic congestion at entrance,Medium,In Progress,139,14-01-2026
+C0037,Water,Hostel B,No water supply since morning,Medium,In Progress,224,28-01-2026
+C0038,Electricity,Computer Lab,Street lights not working,Low,In Progress,55,19-04-2026
+C0039,Transportation,Route 3,Driver shortage causing delays,Medium,Open,133,21-05-2026
+C0040,Water,Hostel B,No water supply since morning,High,Resolved,234,04-01-2026
+C0041,Electricity,Block B,Street lights not working,Low,In Progress,143,24-02-2026
+C0042,Transportation,Transport Office,Bus delayed,Low,Open,119,09-03-2026
+C0043,Water,Block D,Water contamination reported,Medium,Resolved,220,23-05-2026
+C0044,Electricity,Hostel Corridor,Power fluctuation affecting equipment,Low,Open,34,29-05-2026
+C0045,Transportation,Route 1,Route coverage issue,Low,Resolved,142,09-05-2026
+C0046,Water,Hostel C,No water supply since morning,High,Open,237,17-02-2026
+C0047,Electricity,Block B,Generator failure,High,Open,123,31-01-2026
+C0048,Transportation,Main Gate,Bus delayed,High,In Progress,188,30-05-2026
+C0049,Water,Library,Water contamination reported,Medium,Resolved,100,03-03-2026
+C0050,Electricity,Exam Hall,Electrical sparks observed,Low,Resolved,96,28-04-2026
+C0051,Transportation,Main Entrance,Bus overcrowded,Low,Resolved,164,26-01-2026
+C0052,Water,Hostel B,Broken water purifier,Medium,Open,109,18-01-2026
+C0053,Electricity,Computer Lab,AC left running after hours,Medium,In Progress,233,20-05-2026
+C0054,Transportation,Hostel Stop,Bus delayed,High,Resolved,96,19-06-2026
+C0055,Water,Hostel B,Low water pressure,Medium,Open,210,22-05-2026
+C0056,Electricity,Admin Block,Emergency lights malfunctioning,Medium,Open,203,29-03-2026
+C0057,Transportation,Main Gate,Driver shortage causing delays,Medium,In Progress,236,14-01-2026
+C0058,Water,Hostel B,Water wastage due to broken tap,High,Open,20,27-03-2026
+C0059,Electricity,Admin Block,Emergency lights malfunctioning,Low,In Progress,161,30-06-2026
+C0060,Transportation,Transport Office,Bus delayed,Low,Resolved,58,20-05-2026
+C0061,Water,Hostel A,Tank overflow,Medium,Open,130,02-02-2026
+C0062,Electricity,Block A,Emergency lights malfunctioning,Medium,Open,250,02-04-2026
+C0063,Transportation,Main Gate,Bus breakdown reported,High,In Progress,219,24-05-2026
+C0064,Water,Cafeteria,Low water pressure,High,Open,241,11-02-2026
+C0065,Electricity,Admin Block,Electrical sparks observed,Low,Resolved,105,16-04-2026
+C0066,Transportation,Main Gate,Driver shortage causing delays,Low,Resolved,47,08-04-2026
+C0067,Water,Hostel A,Pipeline damage observed,Medium,In Progress,109,20-03-2026
+C0068,Electricity,Computer Lab,Street lights not working,Low,Open,122,26-03-2026
+C0069,Transportation,Hostel Stop,Bus overcrowded,High,In Progress,109,14-06-2026
+C0070,Water,Cafeteria,Tank overflow,High,Open,244,08-03-2026
+C0071,Electricity,Admin Block,Emergency lights malfunctioning,Low,Resolved,131,30-03-2026
+C0072,Transportation,Main Entrance,Traffic congestion at entrance,High,Resolved,49,09-04-2026
+C0073,Water,Girls Hostel,Water contamination reported,Low,In Progress,20,14-05-2026
+C0074,Electricity,Computer Lab,AC left running after hours,Medium,Resolved,104,09-06-2026
+C0075,Transportation,Main Entrance,Bus overcrowded,High,In Progress,149,21-03-2026
+C0076,Water,Cafeteria,Tank overflow,Medium,In Progress,161,02-02-2026
+C0077,Electricity,Computer Lab,Electrical sparks observed,High,In Progress,193,14-02-2026
+C0078,Transportation,Hostel Stop,Traffic congestion at entrance,Medium,Open,97,15-03-2026
+C0079,Water,Girls Hostel,Water wastage due to broken tap,High,Resolved,187,24-03-2026
+C0080,Electricity,Hostel Corridor,Smart meter not recording,Medium,Open,150,02-05-2026
+C0081,Transportation,Route 3,Bus overcrowded,Medium,Resolved,182,08-06-2026
+C0082,Water,Library,Water leakage detected,High,Open,192,21-03-2026
+C0083,Electricity,Computer Lab,Street lights not working,Low,Open,82,02-05-2026
+C0084,Transportation,Route 2,Missed pickup schedule,Medium,Resolved,167,19-02-2026
+C0085,Water,Cafeteria,Pipeline damage observed,Medium,Open,187,26-06-2026
+C0086,Electricity,Block A,Generator failure,High,Open,65,28-06-2026
+C0087,Transportation,Route 5,Bus delayed,Medium,Open,136,04-02-2026
+C0088,Water,Block D,Tank overflow,High,In Progress,176,10-05-2026
+C0089,Electricity,Control Room,Smart meter not recording,High,Resolved,240,02-05-2026
+C0090,Transportation,Route 5,Driver shortage causing delays,High,Resolved,90,14-05-2026
+C0091,Water,Block D,Broken water purifier,Medium,Open,202,15-03-2026
+C0092,Electricity,Computer Lab,Emergency lights malfunctioning,Medium,Resolved,40,05-02-2026
+C0093,Transportation,Route 3,Bus breakdown reported,Medium,Open,200,24-02-2026
+C0094,Water,Hostel B,Water wastage due to broken tap,Medium,Resolved,139,17-04-2026
+C0095,Electricity,Block A,Street lights not working,High,In Progress,217,30-05-2026
+C0096,Transportation,Route 1,Traffic congestion at entrance,Medium,In Progress,96,10-04-2026
+C0097,Water,Cafeteria,Broken water purifier,Medium,In Progress,131,05-05-2026
+C0098,Electricity,Block A,Electrical sparks observed,Medium,Resolved,224,14-04-2026
+C0099,Transportation,Route 3,Missed pickup schedule,High,Resolved,156,07-01-2026
+C0100,Water,Cafeteria,No water supply since morning,Low,In Progress,54,29-04-2026
+C0101,Electricity,Admin Block,Frequent power cuts,Medium,In Progress,74,27-04-2026
+C0102,Transportation,Main Entrance,Route coverage issue,High,In Progress,91,18-04-2026
+C0103,Water,Mess Block,Water leakage detected,Medium,Resolved,158,14-01-2026
+C0104,Electricity,Library,Street lights not working,High,Resolved,30,08-01-2026
+C0105,Transportation,Main Gate,Bus breakdown reported,High,Resolved,59,03-03-2026
+C0106,Water,Hostel C,Pipeline damage observed,High,Resolved,75,30-04-2026
+C0107,Electricity,Exam Hall,AC left running after hours,Low,Resolved,211,30-01-2026
+C0108,Transportation,Route 3,Driver shortage causing delays,Low,Open,99,28-05-2026
+C0109,Water,Cafeteria,Water wastage due to broken tap,High,Open,39,01-06-2026
+C0110,Electricity,Computer Lab,Generator failure,High,In Progress,237,25-06-2026
+C0111,Transportation,Route 2,Bus delayed,Medium,In Progress,189,05-04-2026
+C0112,Water,Hostel B,Tank overflow,Low,In Progress,230,06-05-2026
+C0113,Electricity,Block B,Electrical sparks observed,High,Resolved,248,28-04-2026
+C0114,Transportation,Route 3,Traffic congestion at entrance,Low,Resolved,186,11-03-2026
+C0115,Water,Block D,Pipeline damage observed,Medium,Resolved,171,10-03-2026
+C0116,Electricity,Library,Street lights not working,High,Open,91,26-04-2026
+C0117,Transportation,Main Gate,Missed pickup schedule,Medium,Resolved,117,28-03-2026
+C0118,Water,Hostel A,Pipeline damage observed,High,Open,144,24-02-2026
+C0119,Electricity,Library,Emergency lights malfunctioning,Medium,Resolved,199,12-03-2026
+C0120,Transportation,Route 1,Bus breakdown reported,Low,Resolved,124,06-05-2026
+C0121,Water,Girls Hostel,Pipeline damage observed,High,In Progress,134,05-01-2026
+C0122,Electricity,Block B,Emergency lights malfunctioning,Medium,Resolved,82,20-03-2026
+C0123,Transportation,Main Entrance,Missed pickup schedule,Medium,In Progress,128,21-05-2026
+C0124,Water,Library,Tank overflow,High,In Progress,98,06-03-2026
+C0125,Electricity,Computer Lab,Generator failure,High,In Progress,50,18-05-2026
+C0126,Transportation,Route 3,Bus breakdown reported,Medium,In Progress,90,31-05-2026
+C0127,Water,Mess Block,Water leakage detected,High,In Progress,78,03-04-2026
+C0128,Electricity,Admin Block,Emergency lights malfunctioning,Low,Resolved,52,12-03-2026
+C0129,Transportation,Route 1,Bus delayed,Medium,Resolved,52,13-06-2026
+C0130,Water,Block D,Water leakage detected,High,Resolved,92,01-05-2026
+C0131,Electricity,Hostel Corridor,Smart meter not recording,Medium,Open,84,03-05-2026
+C0132,Transportation,Route 2,Bus overcrowded,Medium,Open,167,11-06-2026
+C0133,Water,Hostel A,Low water pressure,Low,Resolved,97,22-01-2026
+C0134,Electricity,Computer Lab,Generator failure,Medium,In Progress,175,02-06-2026
+C0135,Transportation,Main Gate,Traffic congestion at entrance,Medium,In Progress,96,31-05-2026
+C0136,Water,Cafeteria,Water contamination reported,Medium,Open,176,26-01-2026
+C0137,Electricity,Computer Lab,Street lights not working,Medium,Open,60,03-03-2026
+C0138,Transportation,Route 3,Bus overcrowded,Low,In Progress,135,26-06-2026
+C0139,Water,Block D,Water contamination reported,Low,In Progress,200,14-03-2026
+C0140,Electricity,Hostel Corridor,Generator failure,High,In Progress,221,10-06-2026
+C0141,Transportation,Main Gate,Traffic congestion at entrance,Low,Open,185,08-02-2026
+C0142,Water,Mess Block,Low water pressure,Low,Open,222,20-03-2026
+C0143,Electricity,Exam Hall,Smart meter not recording,Low,Resolved,97,29-06-2026
+C0144,Transportation,Transport Office,Driver shortage causing delays,Medium,In Progress,132,21-01-2026
+C0145,Water,Hostel A,Water wastage due to broken tap,High,Resolved,84,07-01-2026
+C0146,Electricity,Block B,Street lights not working,High,Resolved,170,06-01-2026
+C0147,Transportation,Hostel Stop,Bus delayed,High,Open,140,13-05-2026
+C0148,Water,Block D,Water contamination reported,Low,Resolved,131,12-06-2026
+C0149,Electricity,Hostel Corridor,Generator failure,Medium,In Progress,105,24-03-2026
+C0150,Transportation,Route 2,Insufficient buses available,Medium,Resolved,146,15-03-2026
+C0151,Water,Cafeteria,No water supply since morning,Medium,In Progress,84,24-03-2026
+C0152,Electricity,Block B,Electrical sparks observed,High,Open,188,19-05-2026
+C0153,Transportation,Route 5,Traffic congestion at entrance,Low,Resolved,112,09-06-2026
+C0154,Water,Block D,Pipeline damage observed,High,Open,88,21-05-2026
+C0155,Electricity,Admin Block,Emergency lights malfunctioning,Medium,Resolved,144,01-02-2026
+C0156,Transportation,Route 1,Bus breakdown reported,High,In Progress,161,04-01-2026
+C0157,Water,Cafeteria,Water leakage detected,Medium,Open,138,31-01-2026
+C0158,Electricity,Admin Block,Smart meter not recording,High,In Progress,150,30-06-2026
+C0159,Transportation,Hostel Stop,Traffic congestion at entrance,High,In Progress,82,27-04-2026
+C0160,Water,Hostel C,Water wastage due to broken tap,Low,Resolved,150,04-02-2026
+C0161,Electricity,Block B,Emergency lights malfunctioning,High,In Progress,107,10-05-2026
+C0162,Transportation,Hostel Stop,Bus delayed,Medium,In Progress,234,31-05-2026
+C0163,Water,Block D,Low water pressure,Medium,In Progress,108,27-03-2026
+C0164,Electricity,Control Room,Smart meter not recording,High,Open,198,03-03-2026
+C0165,Transportation,Transport Office,Bus breakdown reported,High,In Progress,31,23-03-2026
+C0166,Water,Block D,Water wastage due to broken tap,Medium,Resolved,222,16-06-2026
+C0167,Electricity,Admin Block,Smart meter not recording,High,Open,148,01-06-2026
+C0168,Transportation,Main Entrance,Bus overcrowded,High,In Progress,45,15-05-2026
+C0169,Water,Block D,No water supply since morning,High,In Progress,242,17-06-2026
+C0170,Electricity,Admin Block,Generator failure,Medium,In Progress,106,09-06-2026
+C0171,Transportation,Transport Office,Bus overcrowded,High,Resolved,239,17-05-2026
+C0172,Water,Cafeteria,Tank overflow,High,In Progress,243,19-05-2026
+C0173,Electricity,Block A,Generator failure,Medium,Resolved,93,28-02-2026
+C0174,Transportation,Route 2,Traffic congestion at entrance,High,Resolved,200,26-01-2026
+C0175,Water,Block D,Low water pressure,High,Open,31,25-03-2026
+C0176,Electricity,Block A,Emergency lights malfunctioning,Medium,In Progress,57,04-03-2026
+C0177,Transportation,Transport Office,Insufficient buses available,Low,Open,176,08-04-2026
+C0178,Water,Girls Hostel,Pipeline damage observed,High,Open,79,29-04-2026
+C0179,Electricity,Exam Hall,Smart meter not recording,Medium,Open,250,30-04-2026
+C0180,Transportation,Hostel Stop,Insufficient buses available,Low,In Progress,170,18-03-2026
+C0181,Water,Cafeteria,Water contamination reported,Medium,In Progress,70,09-04-2026
+C0182,Electricity,Hostel Corridor,Generator failure,Medium,Resolved,111,28-05-2026
+C0183,Transportation,Hostel Stop,Driver shortage causing delays,Low,Resolved,121,12-03-2026
+C0184,Water,Hostel A,No water supply since morning,High,Resolved,147,15-03-2026
+C0185,Electricity,Computer Lab,AC left running after hours,Medium,Open,178,06-03-2026
+C0186,Transportation,Route 3,Bus overcrowded,High,Resolved,30,21-03-2026
+C0187,Water,Block D,No water supply since morning,Medium,Resolved,53,24-01-2026
+C0188,Electricity,Exam Hall,AC left running after hours,High,Open,71,03-02-2026
+C0189,Transportation,Main Entrance,Driver shortage causing delays,High,In Progress,231,04-05-2026
+C0190,Water,Mess Block,Tank overflow,High,In Progress,39,06-02-2026
+C0191,Electricity,Computer Lab,Electrical sparks observed,High,Resolved,113,24-01-2026
+C0192,Transportation,Transport Office,Bus delayed,Medium,Open,136,05-04-2026
+C0193,Water,Mess Block,Water wastage due to broken tap,High,In Progress,47,22-06-2026
+C0194,Electricity,Computer Lab,Smart meter not recording,Low,Resolved,103,06-06-2026
+C0195,Transportation,Main Gate,Bus overcrowded,High,In Progress,199,19-03-2026
+C0196,Water,Cafeteria,Water leakage detected,Low,Open,97,07-05-2026
+C0197,Electricity,Block B,Generator failure,Medium,Resolved,54,10-04-2026
+C0198,Transportation,Route 5,Route coverage issue,High,Resolved,198,19-05-2026
+C0199,Water,Cafeteria,Low water pressure,High,Resolved,45,06-05-2026
+C0200,Electricity,Control Room,Emergency lights malfunctioning,Low,In Progress,75,24-04-2026
+C0201,Transportation,Route 5,Bus breakdown reported,High,Open,195,05-04-2026
+C0202,Water,Library,No water supply since morning,Medium,Open,51,27-04-2026
+C0203,Electricity,Block B,Street lights not working,High,Resolved,25,13-01-2026
+C0204,Transportation,Main Entrance,Bus breakdown reported,High,Resolved,72,18-01-2026
+C0205,Water,Girls Hostel,Broken water purifier,High,Open,104,07-02-2026
+C0206,Electricity,Block A,Emergency lights malfunctioning,High,Open,53,19-05-2026
+C0207,Transportation,Hostel Stop,Insufficient buses available,Low,Open,53,04-01-2026
+C0208,Water,Library,Broken water purifier,Medium,Open,64,09-03-2026
+C0209,Electricity,Block A,Power fluctuation affecting equipment,High,Resolved,49,17-01-2026
+C0210,Transportation,Route 5,Missed pickup schedule,High,Resolved,171,28-01-2026
+C0211,Water,Block D,Broken water purifier,High,Open,206,18-06-2026
+C0212,Electricity,Exam Hall,Smart meter not recording,High,Open,35,03-05-2026
+C0213,Transportation,Transport Office,Traffic congestion at entrance,High,In Progress,202,24-04-2026
+C0214,Water,Hostel B,Water leakage detected,Medium,Open,36,02-02-2026
+C0215,Electricity,Exam Hall,AC left running after hours,Medium,Resolved,155,17-03-2026
+C0216,Transportation,Route 5,Traffic congestion at entrance,Low,Resolved,49,17-06-2026
+C0217,Water,Girls Hostel,Water wastage due to broken tap,Medium,Open,125,28-03-2026
+C0218,Electricity,Hostel Corridor,Electrical sparks observed,Medium,Open,100,20-04-2026
+C0219,Transportation,Main Entrance,Driver shortage causing delays,Medium,Open,195,02-05-2026
+C0220,Water,Hostel B,Water leakage detected,High,Open,130,25-01-2026
+C0221,Electricity,Library,Power fluctuation affecting equipment,Medium,Resolved,163,24-05-2026
+C0222,Transportation,Main Entrance,Bus overcrowded,Medium,Resolved,212,19-04-2026
+C0223,Water,Hostel A,Water contamination reported,High,In Progress,46,28-05-2026
+C0224,Electricity,Computer Lab,Power fluctuation affecting equipment,High,Open,236,28-01-2026
+C0225,Transportation,Main Entrance,Route coverage issue,Low,In Progress,166,27-02-2026
+C0226,Water,Cafeteria,No water supply since morning,High,Resolved,232,27-06-2026
+C0227,Electricity,Exam Hall,Frequent power cuts,Low,Resolved,215,21-03-2026
+C0228,Transportation,Main Entrance,Route coverage issue,Low,Open,164,18-06-2026
+C0229,Water,Cafeteria,Water leakage detected,Low,Resolved,27,24-01-2026
+C0230,Electricity,Computer Lab,Electrical sparks observed,Medium,In Progress,60,05-04-2026
+C0231,Transportation,Hostel Stop,Route coverage issue,High,Resolved,172,22-01-2026
+C0232,Water,Hostel A,Low water pressure,Low,Resolved,32,22-06-2026
+C0233,Electricity,Block B,Emergency lights malfunctioning,Medium,In Progress,144,05-06-2026
+C0234,Transportation,Route 5,Traffic congestion at entrance,Medium,Resolved,49,30-03-2026
+C0235,Water,Cafeteria,Water leakage detected,Medium,Resolved,171,05-05-2026
+C0236,Electricity,Exam Hall,Frequent power cuts,Medium,Resolved,34,02-01-2026
+C0237,Transportation,Main Gate,Driver shortage causing delays,High,Open,215,07-03-2026
+C0238,Water,Mess Block,Tank overflow,Low,In Progress,211,21-04-2026
+C0239,Electricity,Admin Block,Power fluctuation affecting equipment,Medium,Resolved,78,09-05-2026
+C0240,Transportation,Main Entrance,Bus overcrowded,Medium,Resolved,30,22-04-2026
+C0241,Water,Hostel A,Pipeline damage observed,High,In Progress,167,20-04-2026
+C0242,Electricity,Control Room,Electrical sparks observed,Medium,In Progress,25,25-03-2026
+C0243,Transportation,Route 3,Missed pickup schedule,High,In Progress,42,22-04-2026
+C0244,Water,Hostel B,Broken water purifier,Medium,In Progress,154,21-01-2026
+C0245,Electricity,Control Room,Emergency lights malfunctioning,High,Open,105,13-02-2026
+C0246,Transportation,Route 2,Bus overcrowded,Medium,Open,218,31-03-2026
+C0247,Water,Library,Low water pressure,Medium,Open,85,20-02-2026
+C0248,Electricity,Admin Block,Power fluctuation affecting equipment,High,Resolved,39,15-02-2026
+C0249,Transportation,Route 5,Missed pickup schedule,High,Resolved,134,24-06-2026
+C0250,Water,Library,Tank overflow,Low,Open,140,24-04-2026
+C0251,Electricity,Exam Hall,Emergency lights malfunctioning,Medium,In Progress,149,19-01-2026
+C0252,Transportation,Hostel Stop,Missed pickup schedule,Medium,Open,114,15-03-2026
+C0253,Water,Hostel B,Water leakage detected,High,Resolved,118,29-04-2026
+C0254,Electricity,Block A,Smart meter not recording,High,Resolved,186,18-02-2026
+C0255,Transportation,Main Entrance,Missed pickup schedule,Medium,Open,135,27-01-2026
+C0256,Water,Library,Water leakage detected,Medium,Open,30,05-03-2026
+C0257,Electricity,Hostel Corridor,Smart meter not recording,Medium,Resolved,60,04-04-2026
+C0258,Transportation,Main Entrance,Driver shortage causing delays,Medium,In Progress,193,03-06-2026
+C0259,Water,Hostel A,Tank overflow,Low,Open,162,23-06-2026
+C0260,Electricity,Control Room,Emergency lights malfunctioning,Medium,Resolved,174,08-02-2026
+C0261,Transportation,Main Entrance,Bus overcrowded,Medium,Open,109,21-03-2026
+C0262,Water,Cafeteria,Low water pressure,Medium,Open,99,24-05-2026
+C0263,Electricity,Control Room,AC left running after hours,High,Resolved,199,25-06-2026
+C0264,Transportation,Route 2,Traffic congestion at entrance,Medium,Open,112,21-03-2026
+C0265,Water,Hostel C,Broken water purifier,Medium,In Progress,69,27-02-2026
+C0266,Electricity,Admin Block,Power fluctuation affecting equipment,Low,Open,149,19-05-2026
+C0267,Transportation,Route 1,Route coverage issue,High,Resolved,53,02-06-2026
+C0268,Water,Cafeteria,Low water pressure,Low,Resolved,217,09-06-2026
+C0269,Electricity,Admin Block,Smart meter not recording,Low,In Progress,193,02-03-2026
+C0270,Transportation,Route 5,Driver shortage causing delays,High,In Progress,79,17-05-2026
+C0271,Water,Girls Hostel,Water contamination reported,High,In Progress,233,19-02-2026
+C0272,Electricity,Library,Smart meter not recording,Medium,In Progress,219,08-04-2026
+C0273,Transportation,Transport Office,Insufficient buses available,High,Resolved,55,06-03-2026
+C0274,Water,Hostel A,Pipeline damage observed,High,Resolved,46,13-05-2026
+C0275,Electricity,Block B,Emergency lights malfunctioning,Low,Open,89,26-04-2026
+C0276,Transportation,Route 3,Traffic congestion at entrance,Low,Open,229,26-04-2026
+C0277,Water,Library,No water supply since morning,Medium,In Progress,148,06-04-2026
+C0278,Electricity,Computer Lab,Electrical sparks observed,High,In Progress,77,08-01-2026
+C0279,Transportation,Main Entrance,Bus overcrowded,High,Resolved,105,07-02-2026
+C0280,Water,Hostel C,No water supply since morning,Medium,In Progress,198,05-02-2026
+C0281,Electricity,Hostel Corridor,Smart meter not recording,High,Open,24,07-03-2026
+C0282,Transportation,Main Gate,Insufficient buses available,Medium,Resolved,175,16-05-2026
+C0283,Water,Cafeteria,Water leakage detected,High,Open,97,01-02-2026
+C0284,Electricity,Block A,Street lights not working,Medium,Resolved,137,17-01-2026
+C0285,Transportation,Route 2,Missed pickup schedule,Medium,Open,181,12-05-2026
+C0286,Water,Girls Hostel,Low water pressure,Medium,Open,177,01-04-2026
+C0287,Electricity,Computer Lab,Electrical sparks observed,Low,Resolved,41,15-05-2026
+C0288,Transportation,Main Entrance,Bus overcrowded,High,Resolved,149,10-05-2026
+C0289,Water,Hostel A,Water wastage due to broken tap,High,Open,182,10-04-2026
+C0290,Electricity,Library,Emergency lights malfunctioning,High,In Progress,221,18-01-2026
+C0291,Transportation,Main Entrance,Bus breakdown reported,High,Resolved,46,29-05-2026
+C0292,Water,Library,Low water pressure,Low,Resolved,106,14-06-2026
+C0293,Electricity,Admin Block,Smart meter not recording,High,In Progress,181,16-02-2026
+C0294,Transportation,Route 3,Bus overcrowded,High,In Progress,29,17-03-2026
+C0295,Water,Girls Hostel,No water supply since morning,High,Open,100,21-03-2026
+C0296,Electricity,Control Room,Smart meter not recording,Medium,Resolved,68,15-03-2026
+C0297,Transportation,Main Entrance,Bus delayed,High,In Progress,89,01-02-2026
+C0298,Water,Library,Water wastage due to broken tap,High,Resolved,132,09-04-2026
+C0299,Electricity,Library,Power fluctuation affecting equipment,Medium,In Progress,114,13-05-2026
+C0300,Transportation,Hostel Stop,Bus overcrowded,High,Open,130,04-06-2026
+C0301,Water,Hostel C,Water contamination reported,Medium,Open,103,19-06-2026
+C0302,Electricity,Exam Hall,Emergency lights malfunctioning,Medium,Resolved,129,12-02-2026
+C0303,Transportation,Route 5,Route coverage issue,Medium,Resolved,242,01-04-2026
+C0304,Water,Cafeteria,Water contamination reported,High,Open,39,21-06-2026
+C0305,Electricity,Control Room,AC left running after hours,Medium,Resolved,193,10-02-2026
+C0306,Transportation,Route 1,Insufficient buses available,High,Resolved,220,23-04-2026
+C0307,Water,Hostel A,Low water pressure,Low,Resolved,113,03-04-2026
+C0308,Electricity,Control Room,Frequent power cuts,High,Resolved,135,05-04-2026
+C0309,Transportation,Main Entrance,Missed pickup schedule,High,Resolved,55,16-05-2026
+C0310,Water,Library,Water wastage due to broken tap,Medium,In Progress,83,30-01-2026
+C0311,Electricity,Block A,Power fluctuation affecting equipment,Medium,In Progress,163,31-01-2026
+C0312,Transportation,Hostel Stop,Driver shortage causing delays,High,Open,176,15-03-2026
+C0313,Water,Block D,Broken water purifier,Low,Open,135,14-02-2026
+C0314,Electricity,Hostel Corridor,Generator failure,High,In Progress,190,30-03-2026
+C0315,Transportation,Route 2,Driver shortage causing delays,High,Open,202,29-06-2026
+C0316,Water,Hostel C,Tank overflow,Medium,Open,71,05-02-2026
+C0317,Electricity,Computer Lab,Smart meter not recording,Low,Resolved,166,05-04-2026
+C0318,Transportation,Route 5,Insufficient buses available,High,Open,36,21-03-2026
+C0319,Water,Cafeteria,Pipeline damage observed,Medium,In Progress,230,28-05-2026
+C0320,Electricity,Block B,Power fluctuation affecting equipment,High,Resolved,38,26-04-2026
+C0321,Transportation,Route 5,Route coverage issue,Low,Resolved,183,31-05-2026
+C0322,Water,Hostel C,Low water pressure,Medium,Open,232,01-02-2026
+C0323,Electricity,Admin Block,Emergency lights malfunctioning,Low,In Progress,201,27-02-2026
+C0324,Transportation,Main Entrance,Driver shortage causing delays,High,In Progress,70,12-06-2026
+C0325,Water,Mess Block,Low water pressure,High,Resolved,156,24-01-2026
+C0326,Electricity,Admin Block,Power fluctuation affecting equipment,Low,Resolved,204,04-06-2026
+C0327,Transportation,Main Entrance,Bus delayed,High,Open,40,12-01-2026
+C0328,Water,Mess Block,Broken water purifier,High,In Progress,178,13-06-2026
+C0329,Electricity,Block A,Smart meter not recording,High,Resolved,94,14-06-2026
+C0330,Transportation,Hostel Stop,Missed pickup schedule,Medium,Resolved,123,18-03-2026
+C0331,Water,Block D,Water leakage detected,High,Open,132,17-04-2026
+C0332,Electricity,Hostel Corridor,Smart meter not recording,Medium,Resolved,56,22-03-2026
+C0333,Transportation,Main Entrance,Route coverage issue,High,Open,214,05-04-2026
+C0334,Water,Hostel B,Tank overflow,Medium,Open,88,26-04-2026
+C0335,Electricity,Computer Lab,Power fluctuation affecting equipment,Low,In Progress,118,07-06-2026
+C0336,Transportation,Transport Office,Bus breakdown reported,High,Open,228,25-03-2026
+C0337,Water,Library,Broken water purifier,High,In Progress,151,30-04-2026
+C0338,Electricity,Hostel Corridor,Emergency lights malfunctioning,Medium,Open,120,10-05-2026
+C0339,Transportation,Route 5,Bus breakdown reported,Medium,In Progress,32,13-01-2026
+C0340,Water,Mess Block,Pipeline damage observed,Medium,Resolved,192,01-05-2026
+C0341,Electricity,Exam Hall,Frequent power cuts,High,In Progress,54,09-03-2026
+C0342,Transportation,Main Entrance,Traffic congestion at entrance,Medium,In Progress,33,26-05-2026
+C0343,Water,Girls Hostel,Tank overflow,Medium,Open,118,10-05-2026
+C0344,Electricity,Hostel Corridor,Emergency lights malfunctioning,High,Resolved,194,06-06-2026
+C0345,Transportation,Route 2,Insufficient buses available,High,In Progress,115,28-03-2026
+C0346,Water,Library,Low water pressure,Low,Resolved,122,09-05-2026
+C0347,Electricity,Block A,Frequent power cuts,Low,Resolved,105,02-05-2026
+C0348,Transportation,Route 5,Insufficient buses available,High,Resolved,55,25-03-2026
+C0349,Water,Library,Low water pressure,Medium,Resolved,209,18-03-2026
+C0350,Electricity,Library,Smart meter not recording,High,In Progress,141,05-01-2026
+C0351,Transportation,Main Entrance,Route coverage issue,High,In Progress,169,20-03-2026
+C0352,Water,Hostel A,Pipeline damage observed,Medium,Resolved,220,29-05-2026
+C0353,Electricity,Computer Lab,Frequent power cuts,Medium,Open,154,11-06-2026
+C0354,Transportation,Transport Office,Insufficient buses available,High,Open,28,27-05-2026
+C0355,Water,Hostel B,Broken water purifier,Low,In Progress,127,08-02-2026
+C0356,Electricity,Control Room,Street lights not working,Medium,Resolved,140,16-01-2026
+C0357,Transportation,Route 3,Bus breakdown reported,Medium,Resolved,142,15-05-2026
+C0358,Water,Cafeteria,Tank overflow,High,In Progress,156,29-03-2026
+C0359,Electricity,Library,Emergency lights malfunctioning,High,Open,83,13-03-2026
+C0360,Transportation,Hostel Stop,Bus breakdown reported,High,In Progress,217,15-03-2026
+C0361,Water,Girls Hostel,Pipeline damage observed,Medium,In Progress,163,12-03-2026
+C0362,Electricity,Exam Hall,Generator failure,Medium,Resolved,117,12-04-2026
+C0363,Transportation,Main Entrance,Insufficient buses available,Medium,In Progress,202,21-01-2026
+C0364,Water,Library,Pipeline damage observed,High,Resolved,142,24-02-2026
+C0365,Electricity,Computer Lab,Emergency lights malfunctioning,High,Resolved,89,05-02-2026
+C0366,Transportation,Route 2,Bus breakdown reported,Medium,Resolved,155,27-02-2026
+C0367,Water,Girls Hostel,No water supply since morning,Low,In Progress,203,01-05-2026
+C0368,Electricity,Block B,Power fluctuation affecting equipment,Low,Resolved,60,15-04-2026
+C0369,Transportation,Route 5,Missed pickup schedule,High,In Progress,102,15-03-2026
+C0370,Water,Hostel A,Water leakage detected,High,Open,156,10-01-2026
+C0371,Electricity,Admin Block,Electrical sparks observed,High,Open,29,12-04-2026
+C0372,Transportation,Route 5,Insufficient buses available,High,In Progress,244,10-01-2026
+C0373,Water,Hostel A,Water contamination reported,Medium,Open,105,14-03-2026
+C0374,Electricity,Hostel Corridor,Smart meter not recording,High,Open,237,10-05-2026
+C0375,Transportation,Route 5,Driver shortage causing delays,Low,Open,104,11-02-2026
+C0376,Water,Block D,Water contamination reported,High,Open,208,28-03-2026
+C0377,Electricity,Exam Hall,Street lights not working,Low,Resolved,249,14-04-2026
+C0378,Transportation,Transport Office,Route coverage issue,Low,Resolved,44,17-02-2026
+C0379,Water,Hostel C,Pipeline damage observed,Medium,Open,21,08-03-2026
+C0380,Electricity,Control Room,Street lights not working,Medium,In Progress,104,19-03-2026
+C0381,Transportation,Route 1,Driver shortage causing delays,High,Resolved,80,16-01-2026
+C0382,Water,Hostel B,Pipeline damage observed,Medium,In Progress,195,09-05-2026
+C0383,Electricity,Exam Hall,Generator failure,High,In Progress,114,07-06-2026
+C0384,Transportation,Main Gate,Bus breakdown reported,High,In Progress,59,27-04-2026
+C0385,Water,Library,Water wastage due to broken tap,High,In Progress,213,18-05-2026
+C0386,Electricity,Computer Lab,Street lights not working,High,Resolved,243,21-01-2026
+C0387,Transportation,Route 5,Route coverage issue,Low,Resolved,48,16-01-2026
+C0388,Water,Girls Hostel,Low water pressure,Low,Resolved,133,30-01-2026
+C0389,Electricity,Computer Lab,Smart meter not recording,Low,Resolved,134,15-01-2026
+C0390,Transportation,Route 5,Insufficient buses available,Medium,In Progress,164,15-01-2026
+C0391,Water,Block D,Water contamination reported,High,In Progress,85,01-01-2026
+C0392,Electricity,Computer Lab,Generator failure,Low,In Progress,199,17-01-2026
+C0393,Transportation,Route 1,Bus overcrowded,High,In Progress,28,15-03-2026
+C0394,Water,Cafeteria,Low water pressure,High,Resolved,206,15-06-2026
+C0395,Electricity,Control Room,AC left running after hours,High,In Progress,134,07-04-2026
+C0396,Transportation,Transport Office,Bus overcrowded,High,Resolved,243,19-05-2026
+C0397,Water,Hostel C,Tank overflow,Low,Resolved,120,16-05-2026
+C0398,Electricity,Admin Block,Street lights not working,High,Open,96,29-04-2026
+C0399,Transportation,Transport Office,Traffic congestion at entrance,High,Open,137,30-03-2026
+C0400,Water,Hostel C,Water contamination reported,Low,Resolved,215,29-01-2026
+C0401,Electricity,Block A,Electrical sparks observed,High,Open,81,22-02-2026
+C0402,Transportation,Route 2,Bus overcrowded,Medium,In Progress,173,22-06-2026
+C0403,Water,Hostel A,Broken water purifier,High,In Progress,132,01-03-2026
+C0404,Electricity,Computer Lab,Frequent power cuts,Low,In Progress,79,28-05-2026
+C0405,Transportation,Main Entrance,Route coverage issue,Medium,Open,189,14-05-2026
+C0406,Water,Girls Hostel,Water wastage due to broken tap,Medium,Open,162,01-06-2026
+C0407,Electricity,Admin Block,Electrical sparks observed,Medium,Open,108,14-06-2026
+C0408,Transportation,Transport Office,Route coverage issue,High,In Progress,58,18-03-2026
+C0409,Water,Cafeteria,Low water pressure,High,In Progress,81,27-02-2026
+C0410,Electricity,Exam Hall,Power fluctuation affecting equipment,High,Open,163,16-04-2026
+C0411,Transportation,Transport Office,Insufficient buses available,Medium,In Progress,72,26-03-2026
+C0412,Water,Hostel B,Pipeline damage observed,High,Open,157,18-02-2026
+C0413,Electricity,Block A,Emergency lights malfunctioning,Medium,Resolved,174,11-01-2026
+C0414,Transportation,Route 2,Bus breakdown reported,High,Resolved,205,21-06-2026
+C0415,Water,Girls Hostel,Pipeline damage observed,Medium,In Progress,97,04-01-2026
+C0416,Electricity,Computer Lab,Street lights not working,High,Open,211,03-05-2026
+C0417,Transportation,Main Gate,Bus breakdown reported,Medium,Open,161,24-03-2026
+C0418,Water,Mess Block,Water wastage due to broken tap,Medium,Resolved,111,20-03-2026
+C0419,Electricity,Exam Hall,AC left running after hours,Medium,In Progress,139,26-01-2026
+C0420,Transportation,Route 5,Route coverage issue,High,In Progress,100,16-04-2026
+C0421,Water,Hostel A,Broken water purifier,High,Open,86,22-05-2026
+C0422,Electricity,Control Room,Emergency lights malfunctioning,Low,In Progress,78,08-04-2026
+C0423,Transportation,Main Gate,Missed pickup schedule,Medium,Resolved,106,07-03-2026
+C0424,Water,Block D,Pipeline damage observed,Medium,Resolved,223,01-04-2026
+C0425,Electricity,Admin Block,Power fluctuation affecting equipment,High,In Progress,67,19-05-2026
+C0426,Transportation,Route 1,Bus delayed,High,Open,229,21-06-2026
+C0427,Water,Hostel A,No water supply since morning,Medium,Resolved,79,18-01-2026
+C0428,Electricity,Admin Block,Frequent power cuts,Medium,In Progress,115,16-01-2026
+C0429,Transportation,Route 5,Missed pickup schedule,Low,Resolved,161,16-04-2026
+C0430,Water,Hostel A,No water supply since morning,Medium,In Progress,157,15-03-2026
+C0431,Electricity,Block A,Electrical sparks observed,High,Open,47,25-01-2026
+C0432,Transportation,Route 3,Bus breakdown reported,Low,Resolved,84,01-04-2026
+C0433,Water,Mess Block,Water wastage due to broken tap,Low,In Progress,137,25-05-2026
+C0434,Electricity,Computer Lab,Street lights not working,Medium,Open,187,16-06-2026
+C0435,Transportation,Route 1,Bus overcrowded,Medium,In Progress,161,02-05-2026
+C0436,Water,Hostel A,No water supply since morning,High,Open,147,22-04-2026
+C0437,Electricity,Library,Generator failure,High,Open,78,24-02-2026
+C0438,Transportation,Route 5,Driver shortage causing delays,Low,Open,195,13-03-2026
+C0439,Water,Hostel A,Low water pressure,High,In Progress,24,23-02-2026
+C0440,Electricity,Admin Block,Electrical sparks observed,High,In Progress,61,25-05-2026
+C0441,Transportation,Main Gate,Traffic congestion at entrance,High,Resolved,104,09-04-2026
+C0442,Water,Hostel C,Water leakage detected,Medium,In Progress,33,26-01-2026
+C0443,Electricity,Control Room,Street lights not working,High,In Progress,174,07-06-2026
+C0444,Transportation,Transport Office,Route coverage issue,Low,In Progress,220,26-04-2026
+C0445,Water,Block D,Broken water purifier,Medium,In Progress,130,17-02-2026
+C0446,Electricity,Control Room,Generator failure,High,In Progress,224,05-03-2026
+C0447,Transportation,Route 2,Bus overcrowded,Medium,In Progress,202,12-06-2026
+C0448,Water,Hostel C,Water wastage due to broken tap,Medium,Open,43,02-01-2026
+C0449,Electricity,Exam Hall,Smart meter not recording,Medium,In Progress,46,03-02-2026
+C0450,Transportation,Route 2,Insufficient buses available,Medium,Resolved,162,12-05-2026
+C0451,Water,Cafeteria,Water leakage detected,Low,In Progress,161,24-01-2026
+C0452,Electricity,Library,Electrical sparks observed,Low,In Progress,119,22-01-2026
+C0453,Transportation,Main Gate,Insufficient buses available,High,Open,55,10-03-2026
+C0454,Water,Mess Block,Water contamination reported,Medium,Open,62,22-04-2026
+C0455,Electricity,Exam Hall,Electrical sparks observed,Medium,Open,112,06-03-2026
+C0456,Transportation,Main Gate,Missed pickup schedule,Medium,Open,137,28-01-2026
+C0457,Water,Hostel C,Water contamination reported,Low,In Progress,105,08-06-2026
+C0458,Electricity,Control Room,AC left running after hours,Medium,In Progress,228,16-06-2026
+C0459,Transportation,Route 3,Driver shortage causing delays,Medium,Resolved,71,03-05-2026
+C0460,Water,Library,Low water pressure,High,In Progress,94,27-06-2026
+C0461,Electricity,Hostel Corridor,Street lights not working,Medium,In Progress,229,11-04-2026
+C0462,Transportation,Main Entrance,Bus overcrowded,High,Open,171,20-05-2026
+C0463,Water,Hostel C,No water supply since morning,High,In Progress,201,23-02-2026
+C0464,Electricity,Hostel Corridor,Emergency lights malfunctioning,High,Open,229,15-04-2026
+C0465,Transportation,Route 5,Insufficient buses available,High,Open,84,18-06-2026
+C0466,Water,Hostel C,Water wastage due to broken tap,High,Open,134,03-06-2026
+C0467,Electricity,Hostel Corridor,Electrical sparks observed,Medium,Resolved,127,20-05-2026
+C0468,Transportation,Route 1,Route coverage issue,High,Resolved,172,13-06-2026
+C0469,Water,Hostel B,Water leakage detected,High,Resolved,190,01-04-2026
+C0470,Electricity,Admin Block,Frequent power cuts,Medium,Resolved,193,15-06-2026
+C0471,Transportation,Transport Office,Route coverage issue,High,In Progress,47,03-01-2026
+C0472,Water,Hostel B,Water contamination reported,Medium,Resolved,152,23-05-2026
+C0473,Electricity,Computer Lab,Smart meter not recording,Medium,In Progress,217,23-06-2026
+C0474,Transportation,Route 3,Route coverage issue,High,In Progress,46,17-03-2026
+C0475,Water,Cafeteria,Water leakage detected,Low,Resolved,56,31-03-2026
+C0476,Electricity,Exam Hall,AC left running after hours,Medium,Open,153,04-05-2026
+C0477,Transportation,Main Entrance,Missed pickup schedule,Low,Resolved,198,26-04-2026
+C0478,Water,Library,Water leakage detected,Medium,Resolved,49,06-01-2026
+C0479,Electricity,Library,Generator failure,High,Open,209,04-03-2026
+C0480,Transportation,Route 3,Insufficient buses available,Medium,In Progress,138,01-03-2026
+C0481,Water,Cafeteria,Low water pressure,Low,Resolved,130,12-04-2026
+C0482,Electricity,Block A,Street lights not working,Medium,In Progress,119,02-01-2026
+C0483,Transportation,Main Gate,Bus breakdown reported,Medium,Resolved,227,17-01-2026
+C0484,Water,Hostel B,Low water pressure,Medium,Open,137,30-01-2026
+C0485,Electricity,Exam Hall,Smart meter not recording,Medium,Resolved,100,02-06-2026
+C0486,Transportation,Transport Office,Traffic congestion at entrance,Medium,In Progress,110,28-04-2026
+C0487,Water,Hostel C,Water contamination reported,High,Resolved,41,22-06-2026
+C0488,Electricity,Admin Block,AC left running after hours,Low,In Progress,49,16-02-2026
+C0489,Transportation,Main Entrance,Insufficient buses available,Medium,In Progress,172,05-02-2026
+C0490,Water,Cafeteria,Water wastage due to broken tap,Low,Resolved,157,27-06-2026
+C0491,Electricity,Admin Block,Power fluctuation affecting equipment,Medium,Open,67,22-03-2026
+C0492,Transportation,Route 5,Bus delayed,High,Open,144,04-02-2026
+C0493,Water,Girls Hostel,Water wastage due to broken tap,High,Resolved,187,07-05-2026
+C0494,Electricity,Control Room,Smart meter not recording,Medium,In Progress,145,12-02-2026
+C0495,Transportation,Route 2,Bus delayed,High,Open,94,09-01-2026
+C0496,Water,Mess Block,Broken water purifier,Medium,Open,219,28-04-2026
+C0497,Electricity,Hostel Corridor,Generator failure,Medium,In Progress,218,20-05-2026
+C0498,Transportation,Main Entrance,Bus delayed,High,In Progress,159,25-02-2026
+C0499,Water,Cafeteria,Water leakage detected,High,Resolved,212,05-03-2026
+C0500,Electricity,Exam Hall,Frequent power cuts,Medium,In Progress,240,23-01-2026
+C0501,Electricity,Hostel D,tubelight is not working in room D014,Low,Open,1,16-06-2026
+C0502,Transportation,By pass road,There is no bus now and we have a class after 10 minutes and we are standing here for 1 hr now ,Low,Open,1,16-06-2026
+C0503,Water,Block B,There is no water supply for 2 hrs now,Medium,Open,4,17-06-2026
+C0504,Water,Hostel A,fan is not working in room T13,Low,Open,3,17-06-2026
+C0505,Water,Block B,flush is not working properly in room B12,Low,Open,2,17-06-2026
+C0506,Water,Hostel D,This fan is not working well in room no D14,Low,Open,2,17-06-2026
+C0507,Electricity,Room no D0014,bulb is not working in bathroom ,Low,Open,1,17-06-2026
+C0508,Transportation,By pass road,bus is overcrowded and it is not stopping near our hostel ,Medium,Open,40,17-06-2026

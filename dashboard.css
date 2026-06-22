@@ -1,0 +1,280 @@
+/* Campus Sustainability Twin AI - Dashboard Styles */
+
+:root {
+    --primary-color: #0066cc;
+    --water-color: #2196F3;
+    --electricity-color: #FFC107;
+    --transport-color: #4CAF50;
+    --danger-color: #f44336;
+    --success-color: #4CAF50;
+    --warning-color: #ff9800;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+    padding: 1rem;
+    border-left: 3px solid transparent;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef;
+    border-left-color: var(--primary-color);
+}
+
+.sidebar .nav-link.active {
+    color: var(--primary-color);
+    background-color: #e7f3ff;
+    border-left-color: var(--primary-color);
+}
+
+.sidebar .nav-link i {
+    margin-right: 8px;
+}
+
+main {
+    padding-top: 20px;
+    margin-top: 56px;
+}
+
+/* SDG Banner */
+.sdg-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sdg-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.sdg-card h6 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sdg-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+/* Statistics Cards */
+.stat-card {
+    border-left: 4px solid var(--primary-color);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.stat-card h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.water-card {
+    border-left-color: var(--water-color);
+}
+
+.water-card h2 {
+    color: var(--water-color);
+}
+
+.electricity-card {
+    border-left-color: var(--electricity-color);
+}
+
+.electricity-card h2 {
+    color: var(--electricity-color);
+}
+
+.transport-card {
+    border-left-color: var(--transport-color);
+}
+
+.transport-card h2 {
+    color: var(--transport-color);
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+    font-weight: 600;
+}
+
+/* Tables */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* Priority Badges */
+.badge-high {
+    background-color: var(--danger-color);
+}
+
+.badge-medium {
+    background-color: var(--warning-color);
+}
+
+.badge-low {
+    background-color: var(--success-color);
+}
+
+/* Status Badges */
+.badge-open {
+    background-color: #2196F3;
+}
+
+.badge-in-progress {
+    background-color: #ff9800;
+}
+
+.badge-resolved {
+    background-color: #4CAF50;
+}
+
+/* Category Icons */
+.category-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.category-water {
+    background-color: rgba(33, 150, 243, 0.2);
+    color: var(--water-color);
+}
+
+.category-electricity {
+    background-color: rgba(255, 193, 7, 0.2);
+    color: var(--electricity-color);
+}
+
+.category-transport {
+    background-color: rgba(76, 175, 80, 0.2);
+    color: var(--transport-color);
+}
+
+/* Modal */
+.modal-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.recommendation-card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.recommendation-card h6 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Loading Spinner */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15em;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        top: 0;
+    }
+    
+    main {
+        margin-top: 0;
+    }
+    
+    .stat-card h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Alert Styles */
+.alert-ai {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+}
+
+/* Button Styles */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+/* Chart Container */
+canvas {
+    max-height: 300px;
+}
+
+/* Made with Bob */

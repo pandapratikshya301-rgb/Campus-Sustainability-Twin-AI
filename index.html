@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Sustainability Twin AI - Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="/static/css/dashboard.css" rel="stylesheet">
+    <link href="/static/css/modern-dashboard.css" rel="stylesheet">
+    <link href="/static/css/features.css" rel="stylesheet">
+    <link href="/static/css/chatbot.css" rel="stylesheet">
+    <link href="/static/css/notifications.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <button class="btn btn-outline-light me-2" id="sidebar-toggle" title="Toggle Sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-leaf"></i> Campus Sustainability Twin AI
+            </a>
+            <span class="navbar-text text-white d-none d-md-inline">
+                Intelligent Complaint Analysis & Resource Management System
+            </span>
+            <ul class="navbar-nav ms-auto d-flex align-items-center gap-2">
+                <li class="nav-item">
+                    <button class="btn btn-outline-light" id="dark-mode-toggle" title="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <!-- Notification bell will be added here by notifications.js -->
+                <li class="nav-item">
+                    <div id="user-info">
+                        <!-- User info will be populated by JavaScript -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 d-md-block bg-light sidebar">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#dashboard">
+                                <i class="fas fa-chart-line"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#complaints">
+                                <i class="fas fa-exclamation-circle"></i> Complaints
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#submit">
+                                <i class="fas fa-plus-circle"></i> Submit Complaint
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#analytics">
+                                <i class="fas fa-chart-pie"></i> Analytics
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sustainability">
+                                <i class="fas fa-globe"></i> Sustainability
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <main class="col-md-10 ms-sm-auto px-md-4">
+                <!-- Welcome Section -->
+                <div class="welcome-section" id="dashboard">
+                    <h1><i class="fas fa-leaf"></i> Welcome to Campus Sustainability Twin AI</h1>
+                    <p>Intelligent complaint analysis and resource management for a sustainable campus</p>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="quick-actions">
+                    <div class="quick-action-card" onclick="document.querySelector('a[href=\'#submit\']').click()">
+                        <i class="fas fa-plus-circle"></i>
+                        <h6>Submit Complaint</h6>
+                        <p>Report a new issue</p>
+                    </div>
+                    <div class="quick-action-card" onclick="document.querySelector('a[href=\'#complaints\']').click()">
+                        <i class="fas fa-list"></i>
+                        <h6>View Complaints</h6>
+                        <p>Track all issues</p>
+                    </div>
+                    <div class="quick-action-card" onclick="document.querySelector('a[href=\'#analytics\']').click()">
+                        <i class="fas fa-chart-bar"></i>
+                        <h6>Analytics</h6>
+                        <p>View insights</p>
+                    </div>
+                    <div class="quick-action-card" onclick="document.getElementById('chatbot-toggle').click()">
+                        <i class="fas fa-robot"></i>
+                        <h6>AI Assistant</h6>
+                        <p>Get help instantly</p>
+                    </div>
+                </div>
+
+                <!-- SDG Goals Banner -->
+                <div class="sdg-banner" id="sustainability">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <div class="sdg-card sdg-6">
+                                <i class="fas fa-tint fa-2x"></i>
+                                <h6>SDG 6</h6>
+                                <p>Clean Water & Sanitation</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="sdg-card sdg-11">
+                                <i class="fas fa-city fa-2x"></i>
+                                <h6>SDG 11</h6>
+                                <p>Sustainable Cities</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="sdg-card sdg-12">
+                                <i class="fas fa-recycle fa-2x"></i>
+                                <h6>SDG 12</h6>
+                                <p>Responsible Consumption</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Statistics Cards -->
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="stat-card">
+                            <i class="fas fa-exclamation-circle stat-icon"></i>
+                            <div class="stat-label">Total Complaints</div>
+                            <h2 id="total-complaints">0</h2>
+                            <p class="mb-0"><i class="fas fa-chart-line"></i> <span id="trend-indicator">Loading...</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="stat-card water">
+                            <i class="fas fa-tint stat-icon"></i>
+                            <div class="stat-label">Water Issues</div>
+                            <h2 id="water-issues">0</h2>
+                            <p class="mb-0"><span id="water-percent">0%</span> of total</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="stat-card electricity">
+                            <i class="fas fa-bolt stat-icon"></i>
+                            <div class="stat-label">Electricity Issues</div>
+                            <h2 id="electricity-issues">0</h2>
+                            <p class="mb-0"><span id="electricity-percent">0%</span> of total</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="stat-card transport">
+                            <i class="fas fa-bus stat-icon"></i>
+                            <div class="stat-label">Transport Issues</div>
+                            <h2 id="transport-issues">0</h2>
+                            <p class="mb-0"><span id="transport-percent">0%</span> of total</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row -->
+                <div class="row mt-4" id="analytics">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Complaint Category Distribution</h5>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="categoryChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Complaints Over Time (This Week)</h5>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="trendChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Analytics Row -->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Priority Distribution</h5>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="priorityChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Status Overview</h5>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="statusChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5>Average Resolution Time</h5>
+                            </div>
+                            <div class="card-body text-center">
+                                <h2 class="display-4" id="avg-resolution-time">--</h2>
+                                <p class="text-muted">hours</p>
+                                <div class="progress mt-3">
+                                    <div class="progress-bar bg-success" id="resolution-progress" style="width: 0%"></div>
+                                </div>
+                                <small class="text-muted">Target: 24 hours</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High Priority Complaints -->
+                <div class="row mt-4" id="complaints">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header bg-danger text-white">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="mb-0"><i class="fas fa-exclamation-triangle"></i> Complaints Management</h5>
+                                    <div class="btn-group">
+                                        <button class="btn btn-sm btn-light" id="export-csv-btn" title="Export as CSV">
+                                            <i class="fas fa-file-csv"></i> CSV
+                                        </button>
+                                        <button class="btn btn-sm btn-light" id="export-excel-btn" title="Export as Excel">
+                                            <i class="fas fa-file-excel"></i> Excel
+                                        </button>
+                                        <button class="btn btn-sm btn-light" id="refresh-complaints-btn" title="Refresh">
+                                            <i class="fas fa-sync"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <!-- Search and Filter Controls -->
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" id="search-complaints" placeholder="Search complaints...">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-select" id="filter-category">
+                                            <option value="">All Categories</option>
+                                            <option value="Water">Water</option>
+                                            <option value="Electricity">Electricity</option>
+                                            <option value="Transportation">Transportation</option>
+                                            <option value="Waste">Waste</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-select" id="filter-priority">
+                                            <option value="">All Priorities</option>
+                                            <option value="High">High</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Low">Low</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-select" id="filter-status">
+                                            <option value="">All Status</option>
+                                            <option value="Open">Open</option>
+                                            <option value="In Progress">In Progress</option>
+                                            <option value="Resolved">Resolved</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button class="btn btn-primary w-100" id="apply-filters-btn">
+                                            <i class="fas fa-filter"></i> Apply
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bulk Actions -->
+                                <div class="row mb-2" id="bulk-actions-bar" style="display: none;">
+                                    <div class="col-md-12">
+                                        <div class="alert alert-info d-flex justify-content-between align-items-center">
+                                            <span><strong id="selected-count">0</strong> complaints selected</span>
+                                            <div class="btn-group">
+                                                <button class="btn btn-sm btn-success" id="bulk-resolve-btn">
+                                                    <i class="fas fa-check"></i> Mark Resolved
+                                                </button>
+                                                <button class="btn btn-sm btn-warning" id="bulk-progress-btn">
+                                                    <i class="fas fa-spinner"></i> In Progress
+                                                </button>
+                                                <button class="btn btn-sm btn-danger" id="bulk-delete-btn">
+                                                    <i class="fas fa-trash"></i> Delete
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="table-responsive">
+                                    <table class="table table-hover" id="high-priority-table">
+                                        <thead>
+                                            <tr>
+                                                <th><input type="checkbox" id="select-all-complaints"></th>
+                                                <th>ID</th>
+                                                <th>Complaint</th>
+                                                <th>Category</th>
+                                                <th>Priority</th>
+                                                <th>Location</th>
+                                                <th>Users Affected</th>
+                                                <th>Status</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="high-priority-body">
+                                            <tr>
+                                                <td colspan="7" class="text-center">Loading...</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Complaint Form -->
+                <div class="row mt-4" id="submit-complaint-section" style="display: none;">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h5><i class="fas fa-plus-circle"></i> Submit New Complaint</h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="complaint-form">
+                                    <div class="mb-3">
+                                        <label for="complaint-text" class="form-label">Complaint Description</label>
+                                        <textarea class="form-control" id="complaint-text" rows="4" required 
+                                                  placeholder="Describe the issue in detail..."></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="location" class="form-label">Location</label>
+                                        <input type="text" class="form-control" id="location" required 
+                                               placeholder="e.g., Hostel B, Block A, Main Gate">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="users-affected" class="form-label">Estimated Users Affected</label>
+                                        <input type="number" class="form-control" id="users-affected" min="1" value="1" required>
+                                    </div>
+                                    
+                                    <!-- Image Upload Section -->
+                                    <div class="mb-3">
+                                        <label class="form-label">
+                                            <i class="fas fa-camera"></i> Add Photo/Image (Optional)
+                                        </label>
+                                        <div class="input-group">
+                                            <input type="file" class="form-control" id="complaint-image"
+                                                   accept="image/*" multiple>
+                                            <button class="btn btn-outline-primary" type="button" id="capture-btn">
+                                                <i class="fas fa-camera"></i> Capture
+                                            </button>
+                                        </div>
+                                        <small class="text-muted">
+                                            Upload images or use camera to show the problem. Max 5 images, 5MB each.
+                                        </small>
+                                    </div>
+                                    
+                                    <!-- Image Preview Section -->
+                                    <div class="mb-3" id="image-preview-container" style="display: none;">
+                                        <label class="form-label">Selected Images:</label>
+                                        <div class="row g-2" id="image-preview"></div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <div class="alert alert-info" id="ai-classification" style="display: none;">
+                                            <h6>AI Classification:</h6>
+                                            <p id="classification-result"></p>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-paper-plane"></i> Submit Complaint
+                                    </button>
+                                    <button type="button" class="btn btn-secondary" id="classify-btn">
+                                        <i class="fas fa-robot"></i> Classify with AI
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Complaint Details Modal -->
+                <div class="modal fade" id="complaintModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Complaint Details</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body" id="modal-body-content">
+                                Loading...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success" id="modal-resolve-btn">Mark Resolved</button>
+                                <button type="button" class="btn btn-warning" id="modal-progress-btn">In Progress</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Profile Modal -->
+                <div class="modal fade" id="profileModal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">User Profile</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="profile-form">
+                                    <div class="mb-3">
+                                        <label class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="profile-username" readonly>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="profile-email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" id="profile-phone">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Total Complaints Submitted</label>
+                                        <input type="text" class="form-control" id="profile-complaints-count" readonly>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Member Since</label>
+                                        <input type="text" class="form-control" id="profile-member-since" readonly>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" id="save-profile-btn">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notifications Panel -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="notificationsPanel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Notifications</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div id="notifications-list">
+                            <p class="text-muted text-center">No new notifications</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/js/notifications.js"></script>
+    <script src="/static/js/dashboard.js"></script>
+    <script src="/static/js/features.js"></script>
+    <script src="/static/js/chatbot.js"></script>
+</body>
+</html>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
